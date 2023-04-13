@@ -7,16 +7,16 @@ let d = Math.round(Math.random()*90)
 if (b<100){
     b = "0" + Math.round(Math.random()*99)
     if(b<10)
-    b = "0" + "0" + Math.round(Math.random()*99)
+    b = "0" + "0" + Math.round(Math.random()*9)
 
 }
 
 if (c<10){
-    c = "0" + Math.round(Math.random()*10)
+    c = "0" + Math.round(Math.random()*9)
 
 }
 if (d<10){
-    d = "0" + Math.round(Math.random()*10)
+    d = "0" + Math.round(Math.random()*9)
 }
 
 let nomer = a + b + e + c + f + d
